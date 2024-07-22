@@ -1,6 +1,6 @@
 function sum() {
   for (let i = 1; i < 11; i++) {
-    process.stdout.write(i.toString() + " ");
+    process.stdout.write(i.toString() + ' ');
   }
 }
 
@@ -58,8 +58,10 @@ function factorial(n) {
 function trianglePattern(n) {
   for (let i = 0; i < n; i++) {
     for (let j = 0; j <= i; j++) {
-      process.stdout.write("* ");
+      process.stdout.write('* ');
     }
-    console.log("");
+    console.log('');
   }
 }
+
+jh;
