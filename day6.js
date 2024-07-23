@@ -10,3 +10,7 @@ const task1Array = [1, 2, 3, 4, 5];
 // );
 
 // TASK 3
+const task3Array = [1, 2, 3, 4, 5];
+const s = task3Array.splice(3);
+console.log(s);
+console.log(task3Array);

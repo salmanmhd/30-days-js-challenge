@@ -24,6 +24,7 @@ _'/n' - This will add new line_
 
 - push(1) - **it will add the element at the last**. We can give multiple arguments
 - pop() - **it will delete the last element**. No argument needs to be passed.
+- concat(otherArray) - This is used to merge two arrays, returns a new array. No change in the existing array. the elements will be placed like [originalArray, otherArray].
 - unshift(x) - **It will add the argument at the begining**.Although it is advised to not use this method much because it is not that efficient becase to add any element in the first it will need to shift all the elements to next position.
 - shift() - **to remove the first element in array**. No arguement needed to pass, expensive operation!
 - includes(1) - **It will check if the passed arguments is available in the array or not, results in boolean**. it takes two argument (value, start Index). Start Index is optional, specifying the startIdex will allow the search from that index.
@@ -34,3 +35,8 @@ _'/n' - This will add new line_
   - if there is no any argument. i.e., `const arr1 = arr.slice();` then it will create a copy of that array, no value can be changed with other variable in this case
   - negate arguments can be used here as well, -1 = last element, -3 = third last element
   - it will not impact on the original array while the splice will remove the spliced elements from array
+- Splice() - it works almost like slice but the difference here is it includes the end arguments and it removes that part from the original array.
+- spread operator(...) - It spread all the elements of array.
+- flat(level) - **it spreads all the elements of array to spicified level**. like [1,2[3,[4,5], 6], 7] -> 1,2,3,4,5,6,7. We can specify Infinity as the arguments if we want to dig all the way.
+- from()
+- of
